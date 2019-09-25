@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="繁忙度指示图(%)"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        />
+
+
+    <com.lixiaodaoaaa.graphics.HistoGram
+        android:id="@+id/staticview"
+        android:layout_width="400dp"
+        android:layout_height="500dp"
+        android:layout_marginBottom="14dp"
+        android:layout_marginTop="5dp"/>
+</LinearLayout>
